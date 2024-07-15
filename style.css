@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: rgb(242,235,228);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+  }
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana;
+    color: rgb(93,64,45);
+}
+
+#yum{
+    position: absolute;
+    left:25px;
+    bottom: 25px;
+}
+#fish{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+
+#fox{
+    position: absolute;
+    left:25px;
+    top: 25px;
+}
+
+#pup{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+#No{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 110px;
+    width: 70px;
+    height: 50px;
+    background-color:rgb(189,168,149);
+    border-color:rgb(189,168,149);
+
+    font-size: 18px;
+    font-family: Verdana;
+    color:rgb(93,64,45);
+
+}
+
+#Yes{
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 110px;
+    width: 70px;
+    height: 50px;
+    background-color:rgb(189,168,149);
+    border-color:rgb(189,168,149);
+
+    font-size: 18px;
+    font-family: Verdana;
+    color:rgb(93,64,45);
+}
+
+#test{
+    background-color:blue;
+}

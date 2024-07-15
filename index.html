@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> <!--simple information of the website-->
+			<title>Cute Web</title>
+            <meta charset="UTF-8">
+            <meta name="description" content="Will u go out with me website">
+            <meta name="keywords" content="cute, romantic, heart, love">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+	<body> 
+        <div class="container">
+            <h1> Would you like to go out with me? </h1>
+
+                <img src="yum.jpeg" alt="yum pic" width="350" height="198" id="yum">
+                <img src="fish.jpeg" alt="fish pic" width="296" height="220" id="fish">
+                <img src="fox.jpeg" alt="fox pic" width="355" height="209" id="fox">
+                <img src="pup.jpeg" alt="pup pic" width="237" height="207" id="pup">
+
+                <button id ="Yes" onclick="nextPage()"> Yes </button>
+                <button id ="No" onclick="moveButton()"> No </button>
+        </div>
+        
+        <script>        
+        function nextPage(){
+            window.location.href = "yes.html";
+        }
+        function moveButton(){
+            let width = Math.floor(Math.random()*(1100 + 110) - 110);
+            let height = Math.floor(Math.random()*(450 +100) - 100);
+        
+            console.log(width,height);
+            document.getElementById("No").style.left = `${width}px`;
+            document.getElementById("No").style.top = `${height}px`;}
+            //document.getElementById("No").style.left = `1100px`;
+            //document.getElementById("No").style.top = `450px`;}
+
+        </script>
+        
+	</body>
+</html>
+
+<!--<h1> Would you like to go out with me? </h1>-->
+        <!--<canvas id="test" width="1267" height="580" onclick="getPosition()"></canvas>-->
